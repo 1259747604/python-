@@ -66,7 +66,7 @@ if __name__=='__main__':
 # 下面的例子演示了如何在Python代码中运行命令nslookup www.python.org，这和命令行直接运行的效果是一样的
 """ import subprocess
 print('$ nslookup')
-r = subprocess.call(['nslookup', 'www.ttistt.com'])
+r = subprocess.call(['nslookup', 'www.python.org'])
 print('Exit code:', r) """
 
 # 如果子进程还需要输入，则可以通过communicate()方法输入：

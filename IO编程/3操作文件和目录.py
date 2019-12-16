@@ -41,7 +41,7 @@ def main():
   str = input('输入查询字符串：')
   path_name = input('输入查询路径（默认为工作路径）:')
   if path_name == '':
-    path_name = '.'#给懒癌患者一个交代
+    path_name = '.'
   minus = len(path_name)
 
   def list_file(str,path):
